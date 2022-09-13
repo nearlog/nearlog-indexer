@@ -11,8 +11,10 @@ git branch -M main
 git push -uf origin main
 ```
 
+```
 graph auth --product hosted-service xxxxx
 graph deploy --product hosted-service nhtera/nearlog
 
 yarn start
 yarn deploy
+```
