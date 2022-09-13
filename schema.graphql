@@ -1,5 +1,9 @@
-type ExampleEntity @entity {
+type OptionEntity @entity {
   id: ID!
-  block: Bytes!
-  count: BigInt!
+  option_id: String!
+  option_type: String!
+  amount: String!
+  strike: String!
+  expiration: String!
+  premium: String!
 }
